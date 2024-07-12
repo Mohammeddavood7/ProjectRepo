@@ -29,4 +29,6 @@ public class AppTest {
 		int actual = app.sumOfInteger(-10, 40);
 		assertEquals(expected, actual);
 	}
+	
+
 }

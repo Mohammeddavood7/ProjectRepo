@@ -30,5 +30,13 @@ public class AppTest {
 		assertEquals(expected, actual);
 	}
 	
+	@Test
+	public void sumWithZero {
+		App app = new App();
+		int expected = 0;
+		int actual = app.sumOfInteger(0, 0);
+		assertEquals(expected, actual);
+	}
+	
 
 }

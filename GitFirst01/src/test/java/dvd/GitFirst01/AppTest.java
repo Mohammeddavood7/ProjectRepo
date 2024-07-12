@@ -1,20 +1,28 @@
 package dvd.GitFirst01;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
+
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+    
     @Test
-    public void shouldAnswerWithTrue()
+    public void sumPositiveNumber()
     {
-        assertTrue( true );
+    	App app = new App();
+    	int expected = 30;
+    	int actual = app.sumOfInteger(10, 20);
+        assertEquals(expected, actual);
+    }
+    
+    @Test
+    public void sumNegativeNumber()
+    {
+    	App app = new App();
+    	int expected = -30;
+    	int actual = app.sumOfInteger(-10, -20);
+        assertEquals(expected, actual);
     }
 }

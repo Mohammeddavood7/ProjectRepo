@@ -35,8 +35,7 @@ public class AppTest {
 		App app = new App();
 		int expected = 0;
 		int actual = app.sumOfInteger(0, 0);
-		System.out.println("AppTest.sumWithZero() Dev Ops 2");
-		assertEquals(expected, actual);
+	assertEquals(expected, actual);
 	}
 
 }

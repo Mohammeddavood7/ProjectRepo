@@ -12,11 +12,17 @@ public class Banking
 		return "bankingNetworking";
 	}
 	
+
 	public String withdraw()
 	{
 		return "withdraw";
 	}
-	
+
+	public String deposit()
+	{
+		return "hello";
+	}
+
 
 }
 	

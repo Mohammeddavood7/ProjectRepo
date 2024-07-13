@@ -7,7 +7,7 @@ public class Banking
 		return "bankingUpi Transaction";
 	}
 	
-	
+
 	public String bankingNetworking()
 	{
 		return "bankingNetworking";

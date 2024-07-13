@@ -4,7 +4,7 @@ public class Banking
 {
 	public String bankingUpi()
 	{
-		return "bankingUpi";
+		return "bankingUpi Transaction";
 	}
 
 }

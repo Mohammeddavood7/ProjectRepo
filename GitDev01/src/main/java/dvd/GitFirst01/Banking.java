@@ -1,0 +1,10 @@
+package dvd.GitFirst01;
+
+public class Banking
+{
+	public String bankingUpi()
+	{
+		return "bankingUpi";
+	}
+
+}

@@ -11,6 +11,13 @@ public class Banking
 	{
 		return "bankingNetworking";
 	}
+	
+	public String withdraw()
+	{
+		return "withdraw";
+	}
+	
+	
 
 }
 	
